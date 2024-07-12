@@ -1,1 +1,1 @@
-# ball-js
+# test-js-project-for-study
