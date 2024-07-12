@@ -191,11 +191,12 @@ img {
   transform: scale(1.1);
 }
 
-.main-title {
+.rocket {
   position: fixed;
   top: 35%;
   left: 50%;
   z-index: 0;
   color: blueviolet;
   transform: rotate(40deg);
+  font-size: 50px;
 }
