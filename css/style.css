@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 99vw;
@@ -13,197 +13,189 @@ body {
   overflow-x: hidden;
 }
 
-ul{
-	list-style: none;
-	padding-left: 0;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 img {
-	max-width: 100%;
-	display: block;
-	width: 300px;
-	max-height: 150px;
+  max-width: 100%;
+  display: block;
+  width: 300px;
+  max-height: 150px;
 }
 
-
-.play-game{
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-	background-color: rgb(158, 126, 255);
-	position: relative;
-	border: 3px solid black;
+.play-game {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(158, 126, 255);
+  position: relative;
+  border: 3px solid black;
 }
 
-
-.container-for-ball{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100%;
+.container-for-ball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
-.container-for-ball.baground-img{
-	background-image: url(../img/bg.png);
-	background-position: 10% 10%;
-	background-repeat: repeat-x;
-	background-size: cover;
-	animation-name: stars;
-	animation-direction: normal;
-	animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
-	animation-delay: 50ms;
-	animation-duration: 100s;
-	animation-iteration-count: infinite;	
+.container-for-ball.baground-img {
+  background-image: url(../img/bg.png);
+  background-position: 10% 10%;
+  background-repeat: repeat-x;
+  background-size: cover;
+  animation-name: stars;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  animation-delay: 50ms;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes stars {
-	from{
-		background-position: 10% 10%;
-		}
-		to {
-		background-position: 10000% 10%;
-	}
+  from {
+    background-position: 10% 10%;
+  }
+  to {
+    background-position: 10000% 10%;
+  }
 }
 
 /* object*/
 .balls {
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 50px;
-	height: 50px;
-	background-color: #f4ab00;
-	border-radius: 50%;
-	transition: margin 0.3s ease;
-	border: 1px solid black;
-	z-index: 999;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #f4ab00;
+  border-radius: 50%;
+  transition: margin 0.3s ease;
+  border: 1px solid black;
+  z-index: 999;
 }
 
 /* button */
-.my-button-under{
-	background-color: rgb(24, 0, 209);
-	border-radius: 20px;
-	padding: 10px;
-	transition: transform 0.3s ease;
-	cursor: pointer;
-	position: fixed;
-	bottom: 15px;
-	right: 50px;
-
+.my-button-under {
+  background-color: rgb(24, 0, 209);
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: fixed;
+  bottom: 15px;
+  right: 50px;
 }
 
-.my-button-under:hover{
-	transform: scale(1.1);
-}
-
-/* button */
-.my-button-left{
-	background-color: rgb(24, 0, 209);
-	border-radius: 20px;
-	padding: 10px;
-	transition: transform 0.3s ease;
-	cursor: pointer;
-	position: fixed;
-	bottom: 43px;
-	right: 90px;
-}
-
-.my-button-left:hover{
-	transform: scale(1.1);
+.my-button-under:hover {
+  transform: scale(1.1);
 }
 
 /* button */
-.my-button-right{
-	background-color: rgb(24, 0, 209);
-	border-radius: 20px;
-	padding: 10px;
-	transition: transform 0.3s ease;
-	cursor: pointer;
-	position: fixed;
-	bottom: 43px;
-	right: 10px;
+.my-button-left {
+  background-color: rgb(24, 0, 209);
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: fixed;
+  bottom: 43px;
+  right: 90px;
 }
 
-.my-button-right:hover{
-	transform: scale(1.1);
-}
-
-/* button */
-.my-button-top{
-	background-color: rgb(24, 0, 209);
-	border-radius: 20px;
-	padding: 10px;
-	transition: transform 0.3s ease;
-	cursor: pointer;
-	position: fixed;
-	bottom: 70px;
-	right: 50px;
-}
-
-.my-button-top:hover{
-	transform: scale(1.1);
+.my-button-left:hover {
+  transform: scale(1.1);
 }
 
 /* button */
-.my-button-color{
-	background-color: rgb(104, 255, 49);
-	border-radius: 20px;
-	padding: 10px;
-	transition: transform 0.3s ease;
-	cursor: pointer;
-	position: fixed;
-	bottom: 10px;
-	left: 10px;
+.my-button-right {
+  background-color: rgb(24, 0, 209);
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: fixed;
+  bottom: 43px;
+  right: 10px;
 }
 
-.my-button-color:hover{
-	transform: scale(1.1);
-}
-
-/* button */
-.my-button-color-bg{
-	background-color: rgb(104, 255, 49);
-	border-radius: 20px;
-	padding: 10px;
-	transition: transform 0.3s ease;
-	cursor: pointer;
-	position: fixed;
-	bottom: 130px;
-	left: 10px;
-}
-
-.my-button-color-bg:hover{
-	transform: scale(1.1);
+.my-button-right:hover {
+  transform: scale(1.1);
 }
 
 /* button */
-.my-button-color-stars{
-	background-color: rgb(104, 255, 49);
-	border-radius: 20px;
-	padding: 10px;
-	transition: transform 0.3s ease;
-	cursor: pointer;
-	position: fixed;
-	bottom: 70px;
-	left: 10px;
+.my-button-top {
+  background-color: rgb(24, 0, 209);
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
 }
 
-.my-button-color-stars:hover{
-	transform: scale(1.1);
+.my-button-top:hover {
+  transform: scale(1.1);
 }
 
-.main-title{
-	position: fixed;
-	top:35%;
-	left: 50%;
-	z-index: 0;
-	font-size: 100px;
-	color: blueviolet;
-	font-weight: 900;
-	font-style: italic;
-	transform: rotate(40deg);
-	
+/* button */
+.my-button-color {
+  background-color: rgb(104, 255, 49);
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
 }
 
+.my-button-color:hover {
+  transform: scale(1.1);
+}
+
+/* button */
+.my-button-color-bg {
+  background-color: rgb(104, 255, 49);
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: fixed;
+  bottom: 130px;
+  left: 10px;
+}
+
+.my-button-color-bg:hover {
+  transform: scale(1.1);
+}
+
+/* button */
+.my-button-color-stars {
+  background-color: rgb(104, 255, 49);
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: fixed;
+  bottom: 70px;
+  left: 10px;
+}
+
+.my-button-color-stars:hover {
+  transform: scale(1.1);
+}
+
+.main-title {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  z-index: 0;
+  color: blueviolet;
+  transform: rotate(40deg);
+}
