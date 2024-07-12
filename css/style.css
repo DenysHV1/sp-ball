@@ -10,6 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 99vw;
   height: 200vh;
+  overflow-x: hidden;
 }
 
 ul{
@@ -81,7 +82,7 @@ img {
 
 /* button */
 .my-button-under{
-	background-color: green;
+	background-color: rgb(24, 0, 209);
 	border-radius: 20px;
 	padding: 10px;
 	transition: transform 0.3s ease;
@@ -98,7 +99,7 @@ img {
 
 /* button */
 .my-button-left{
-	background-color: green;
+	background-color: rgb(24, 0, 209);
 	border-radius: 20px;
 	padding: 10px;
 	transition: transform 0.3s ease;
@@ -114,7 +115,7 @@ img {
 
 /* button */
 .my-button-right{
-	background-color: green;
+	background-color: rgb(24, 0, 209);
 	border-radius: 20px;
 	padding: 10px;
 	transition: transform 0.3s ease;
@@ -130,7 +131,7 @@ img {
 
 /* button */
 .my-button-top{
-	background-color: green;
+	background-color: rgb(24, 0, 209);
 	border-radius: 20px;
 	padding: 10px;
 	transition: transform 0.3s ease;
@@ -146,7 +147,7 @@ img {
 
 /* button */
 .my-button-color{
-	background-color: rgb(233, 251, 95);
+	background-color: rgb(104, 255, 49);
 	border-radius: 20px;
 	padding: 10px;
 	transition: transform 0.3s ease;
@@ -162,7 +163,7 @@ img {
 
 /* button */
 .my-button-color-bg{
-	background-color: rgb(233, 251, 95);
+	background-color: rgb(104, 255, 49);
 	border-radius: 20px;
 	padding: 10px;
 	transition: transform 0.3s ease;
@@ -178,7 +179,7 @@ img {
 
 /* button */
 .my-button-color-stars{
-	background-color: rgb(233, 251, 95);
+	background-color: rgb(104, 255, 49);
 	border-radius: 20px;
 	padding: 10px;
 	transition: transform 0.3s ease;
