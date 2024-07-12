@@ -30,7 +30,7 @@ img {
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 255, 255, 0.11);
+	background-color: rgb(158, 126, 255);
 	position: relative;
 	border: 3px solid black;
 }
@@ -78,6 +78,7 @@ img {
 	border-radius: 50%;
 	transition: margin 0.3s ease;
 	border: 1px solid black;
+	z-index: 999;
 }
 
 /* button */
@@ -192,3 +193,17 @@ img {
 .my-button-color-stars:hover{
 	transform: scale(1.1);
 }
+
+.main-title{
+	position: fixed;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.3;
+	z-index: 0;
+	font-size: 100px;
+	color: blueviolet;
+	font-weight: 900;
+	font-style: italic;
+}
+
