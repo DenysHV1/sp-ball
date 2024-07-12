@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 99vw;
-  height: 100vh;
+  height: 200vh;
   overflow-x: hidden;
 }
 
