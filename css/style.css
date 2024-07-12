@@ -196,15 +196,14 @@ img {
 
 .main-title{
 	position: fixed;
-	top:50%;
+	top:35%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	opacity: 0.3;
 	z-index: 0;
 	font-size: 100px;
 	color: blueviolet;
 	font-weight: 900;
 	font-style: italic;
+	transform: rotate(40deg);
 	
 }
 
